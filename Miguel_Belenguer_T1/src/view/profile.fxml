@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<fx:root type="AnchorPane" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.Procontrol">
+   <children>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" style="-fx-background-color: #FFFFFF;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="107.0" fitWidth="600.0">
+               <image>
+                  <Image url="@blueforest.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="108.0" layoutY="41.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="375.0" style="-fx-background-color: #F90A0A;" text="View in GitHub" textFill="WHITE" />
+            <Label layoutX="251.0" layoutY="125.0" prefHeight="27.0" prefWidth="90.0" text="My profile" textFill="#12bcb1">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="119.0" fitWidth="131.0" layoutX="231.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@profilephoto.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="285.0" layoutY="300.0" text="Jay R." />
+            <Label layoutX="234.0" layoutY="328.0" text="Programmers can design" textFill="#978686">
+               <font>
+                  <Font name="System Italic" size="12.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnSend" layoutX="460.0" layoutY="290.0" mnemonicParsing="false" onAction="handleButtonClick" prefHeight="55.0" prefWidth="37.0" style="-fx-background-color: #FFFFFF;" />
+            <Pane layoutY="374.0" prefHeight="27.0" prefWidth="600.0" style="-fx-background-color: #3FB29F;" />
+            <ImageView fitHeight="47.0" fitWidth="49.0" layoutX="497.0" layoutY="285.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@send.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</fx:root>
